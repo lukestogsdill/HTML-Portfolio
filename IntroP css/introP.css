@@ -1,0 +1,199 @@
+body, html{
+    height:100%;
+    margin:0px;
+    padding:0px;
+    background:rgba(5, 63, 96, 0.553);
+}
+
+/*(NAVIGATION BAR)*/
+
+nav{
+    background-color:blue;
+    background-image:linear-gradient(rgb(0, 0, 0),rgba(0, 0, 255, 0.224),rgb(0, 0, 0));
+    border-bottom:black solid 3px;
+    padding:1em;
+    width:100%;
+    position:fixed;
+    top:0;
+}
+nav li{
+    display:inline;
+}
+nav a{
+    color:white;
+    text-shadow: 2px 2px black;
+    text-decoration:none;
+    border-left:black solid 2px;
+    border-right:black solid 2px;
+    padding:1em;
+    margin:10px;
+}
+nav a:hover{
+    background-color:rgb(173, 0, 189);
+    background-image:linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0),rgb(0, 0, 0));
+}
+
+/*(PORTRAIT!)*/
+
+.portrait{
+    display:flex;
+    background-image:url("/images/pickles.jpg");
+    height:24rem;
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.portrait h1{
+    border:solid black;
+    border-radius:10px;
+    color:white;
+    width:fit-content;
+    margin-right:70%;
+    padding:1rem;
+    background-image:linear-gradient(black,blue,black);;
+    font-family:verdana;
+    font-size:4rem;
+    text-shadow: 2px 2px black;
+}
+.portrait p{
+    background-color:rgb(88, 42, 92);
+    color:white;
+    border-radius:10%;
+    padding:4px;
+    margin-right:20%
+}
+.hand{
+    opacity: 0;
+    background-image:url("/images/hand.jpg");
+    padding:5rem;
+    margin-right:20%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    transition:1s;
+    margin-top:10rem;
+}
+.hand:hover{
+    cursor:pointer;
+}
+.hand:active{
+    opacity: 1;
+    transform: translateX(14rem);
+}
+
+
+/*(CONTAINER1)*/
+
+.container1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    margin-top:4rem;
+    height:44rem;
+}
+#block{
+    display:flex;
+    background:rgba(0, 0, 0, 0.263);
+    width:40%;
+    min-width: 20rem;
+    margin:1em;
+    border-radius:15px;
+}
+.description{
+    display:flex;
+    width:100%;
+    align-items: center;
+    margin:1em;
+    color:white;
+    font-size:1rem;
+    flex-direction:column;
+}
+.block_image{
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius: 15px 0 0 15px;
+}
+#sidebar{
+    background:blue;
+    width:10%;
+    min-width:10rem;
+    margin:1em;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sidebar h2, #sidebar form{
+    color:white;
+    margin:1em;
+}
+textarea{
+    max-width: 10rem;
+    max-height: 4rem;
+    margin:10px;
+}
+.me1{
+    background-image:url("/images/coolshark.jpg");
+}
+.me2{
+    background-image:url("/Gifs/bowling.gif");
+}
+
+/*(FOOTER)*/
+
+.footer{
+    background-color: rgb(4, 45, 226);
+    color:white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+/*(-------------------------------------Page 2----------------------------------------------)*/
+
+.page2_title{
+    text-align: center;
+    padding-top:4px;
+    margin-bottom:4rem;
+    border-bottom:solid black;
+    background:rgba(0, 0, 0, 0.263);
+    color:white;
+    text-shadow: 2px 2px black;
+    font-size: 3rem;
+}
+
+.gif_container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:4rem;
+}
+.gif_display{
+    border:solid black 1px;
+    box-shadow: black 4px 4px;
+    background:rgba(0, 0, 0, 0.263);
+    height:fit-content;    
+}
+
+.gif_display h2, .gif_display p{
+    color:white;
+    margin-left:4px;
+}
+
+
+.gif1, .gif2, .gif3, .gif4, .gif5{
+    font-size: 0%;
+    transition: 1s;
+}
+
+.gif1:hover, .gif2:hover, .gif3:hover, .gif4:hover, .gif5:hover{
+    font-size: 100%;
+    transform: scale(1.1);
+}
+
