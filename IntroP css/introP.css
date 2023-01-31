@@ -36,7 +36,7 @@ nav a:hover{
 
 .portrait{
     display:flex;
-    background-image:url("/images/pickles.jpg");
+    background-image:url("../images/pickles.jpg");
     height:24rem;
     background-size:contain;
     background-position:center;
@@ -66,7 +66,7 @@ nav a:hover{
 }
 .hand{
     opacity: 0;
-    background-image:url("/images/hand.jpg");
+    background-image:url("../images/hand.jpg");
     padding:5rem;
     margin-right:20%;
     background-repeat:no-repeat;
@@ -103,7 +103,7 @@ nav a:hover{
 .description{
     display:flex;
     width:100%;
-    align-items: center;
+    align-items:center;
     margin:1em;
     color:white;
     font-size:1rem;
@@ -122,9 +122,9 @@ nav a:hover{
     width:10%;
     min-width:10rem;
     margin:1em;
-    border-radius: 15px;
+    border-radius:15px;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
 }
@@ -138,10 +138,10 @@ textarea{
     margin:10px;
 }
 .me1{
-    background-image:url("/images/coolshark.jpg");
+    background-image:url("../images/coolshark.jpg");
 }
 .me2{
-    background-image:url("/Gifs/bowling.gif");
+    background-image:url("../Gifs/bowling.gif");
 }
 
 /*(FOOTER)*/
