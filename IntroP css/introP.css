@@ -167,7 +167,6 @@ textarea{
     text-shadow: 2px 2px black;
     font-size: 3rem;
 }
-
 .gif_container{
     display:flex;
     flex-wrap:wrap;
@@ -180,20 +179,15 @@ textarea{
     background:rgba(0, 0, 0, 0.263);
     height:fit-content;    
 }
-
 .gif_display h2, .gif_display p{
     color:white;
     margin-left:4px;
 }
-
-
 .gif1, .gif2, .gif3, .gif4, .gif5{
     font-size: 0%;
     transition: 1s;
 }
-
 .gif1:hover, .gif2:hover, .gif3:hover, .gif4:hover, .gif5:hover{
     font-size: 100%;
     transform: scale(1.1);
 }
-
